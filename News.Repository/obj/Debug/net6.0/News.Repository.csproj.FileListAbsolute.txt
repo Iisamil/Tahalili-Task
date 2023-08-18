@@ -1,0 +1,15 @@
+E:\c#\NewsProgramSolution\News.Repository\bin\Debug\net6.0\News.Repository.deps.json
+E:\c#\NewsProgramSolution\News.Repository\bin\Debug\net6.0\News.Repository.dll
+E:\c#\NewsProgramSolution\News.Repository\bin\Debug\net6.0\News.Repository.pdb
+E:\c#\NewsProgramSolution\News.Repository\bin\Debug\net6.0\News.Core.dll
+E:\c#\NewsProgramSolution\News.Repository\bin\Debug\net6.0\News.Core.pdb
+E:\c#\NewsProgramSolution\News.Repository\obj\Debug\net6.0\News.Repository.csproj.AssemblyReference.cache
+E:\c#\NewsProgramSolution\News.Repository\obj\Debug\net6.0\News.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\c#\NewsProgramSolution\News.Repository\obj\Debug\net6.0\News.Repository.AssemblyInfoInputs.cache
+E:\c#\NewsProgramSolution\News.Repository\obj\Debug\net6.0\News.Repository.AssemblyInfo.cs
+E:\c#\NewsProgramSolution\News.Repository\obj\Debug\net6.0\News.Repository.csproj.CoreCompileInputs.cache
+E:\c#\NewsProgramSolution\News.Repository\obj\Debug\net6.0\News.Repository.csproj.CopyComplete
+E:\c#\NewsProgramSolution\News.Repository\obj\Debug\net6.0\News.Repository.dll
+E:\c#\NewsProgramSolution\News.Repository\obj\Debug\net6.0\refint\News.Repository.dll
+E:\c#\NewsProgramSolution\News.Repository\obj\Debug\net6.0\News.Repository.pdb
+E:\c#\NewsProgramSolution\News.Repository\obj\Debug\net6.0\ref\News.Repository.dll
