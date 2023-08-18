@@ -1,0 +1,21 @@
+﻿@model UserViewModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_AuthLayout.cshtml";
+}
+
+<div asp-validation-summary="All"></div> @*to Show Errors*@
+
+<div class="main-agileinfo">
+	<div class="agileits-top">
+		<form asp-action="Login" method="post">
+			<input class="text" asp-for="UserName" placeholder="UserName" required="">
+			<input class="text" asp-for="Password" placeholder="Password" required="">
+			<div class="wthree-text">
+				
+				<div class="clear"> </div>
+			</div>
+			<input type="submit" value="SIGN IN">
+		</form>
+	</div>
+</div>

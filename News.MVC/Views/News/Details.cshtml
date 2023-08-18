@@ -1,0 +1,58 @@
+﻿@model NewsViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<div>
+
+<div class="form-group">
+    <label class="col col-form-label" asp-for="Image"></label>
+    <img src="~/Files/images/@Model.Image" class="img-fluid rounded" alt="News Image" height="300" width="300" />
+
+</div>  @*Image*@
+
+<div class="form-group">
+    <label class="col col-form-label" asp-for="Title"></label>
+    <input asp-for="Title" class="form-control" readonly />
+</div>  @*Title*@
+
+<div class="form-group">
+    <label class="col col-form-label" asp-for="AuthorId"></label>
+    <input asp-for="AuthorId" class="form-control" readonly />
+</div>  @*AuthorId*@
+
+<div class="form-group">
+    <label class="col col-form-label" asp-for="Author"></label>
+    <input asp-for="Author" class="form-control" readonly />
+</div>  @*Author*@
+
+<div class="form-group">
+    <label class="col col-form-label" asp-for="CreationDate"></label>
+    <input asp-for="CreationDate" class="form-control" readonly />
+</div>  @*CreationDate*@
+
+<div class="form-group">
+    <label class="col col-form-label" asp-for="PublicationDate"></label>
+    <input asp-for="PublicationDate" class="form-control" readonly />
+</div>  @*PublicationDate*@
+
+<br/>
+    <a  asp-action="Update" asp-route-id="@Model.Id" class="btn btn-success">
+        <i class="fas fa-edit"></i> Update @*ButtonName*@
+    </a>
+
+    |
+
+    <a  asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">
+        <i class="fas fa-trash"></i> Delete @*ButtonName*@
+    </a>
+
+    |
+
+    <a  asp-action="GetAuthors" class="btn btn-outline-secondary">
+        <i class="fas fa-trash"></i> Back To List @*ButtonName*@
+    </a>
+
+
+    </div>

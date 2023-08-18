@@ -1,0 +1,23 @@
+﻿@model News.MVC.Models.AuthorViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<h3 class="alert alert-success align-content-center"> Author's Details! </h3>
+<br />
+    <div asp-validation-summary="All"></div>
+    <div class="form-group">
+        <label class="col col-form-label" asp-for="Id"></label>
+        <input asp-for="Id" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label class="col col-form-label" asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" readonly />
+    </div>
+    
+    <br />
+    
+    <a asp-action="GetAuthors" class="btn btn-secondary">Go Back To List</a>
+

@@ -1,0 +1,63 @@
+﻿@model NewsViewModelV4
+@Model IEnumerable<AuthorViewModel>
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h1>Update</h1>
+
+@{
+    var Authors = new SelectList(TempData["data"] as IEnumerable<AuthorViewModel>,"Id","Name");
+
+}
+
+
+<form asp-action="Update" enctype="multipart/form-data">
+
+     <div class="form-group">
+    <label class="col col-form-label" asp-for="Id"></label>
+    <input asp-for="Id" class="form-control" readonly/>
+    
+</div> 
+    <div class="form-group">
+    <label class="col col-form-label" asp-for="Title"></label>
+    <input asp-for="Title" class="form-control" />
+    <span asp-validation-for="Title" class="text-danger"></span> @*Validation Error*@
+</div>  @*Title*@
+
+<div class="form-group">
+    <label class="col col-form-label" asp-for="PublicationDate"></label>
+    <input asp-for="PublicationDate" class="form-control" />
+    <span asp-validation-for="PublicationDate" class="text-danger"></span> @*Validation Error*@
+</div>  @*Publication Date*@
+
+<div class="form-group">
+    <label class="col col-form-label" asp-for="CreationDate"></label>
+    <input asp-for="CreationDate" class="form-control" readonly/>
+    
+</div>  
+
+
+<div class="form-group"> @*// Author Drop List*@
+
+    <label class="col-form-label" asp-for="Author"></label>
+    <select class="form-control" asp-for="AuthorId" asp-items="@Authors">
+        <option value="@null">---Select Department---</option>
+    </select>
+
+</div>  
+
+<div class="form-group">     @*Image*@
+    <label class="col-form-label" asp-for="ImageName"></label>
+    <input class="form-control" asp-for="ImageName" />
+</div>
+<br/>
+
+    <input type="submit" value="Submit" class="btn btn-primary"/>
+    <a asp-action="Index" class="btn btn-dark">Back To List</a>
+</form>
+
+@*@section validationScriptSection {
+    @*PartialView for Client Side Validation*@
+   @* <partial name="_ValidationScriptsPartial" />
+}**@

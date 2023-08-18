@@ -1,0 +1,49 @@
+﻿@model NewsViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2 class="alert alert-danger">Are You Sure to Delete This News ! </h2>
+
+<div>
+    <form asp-action="Delete">
+<div class="form-group">
+    <label class="col col-form-label" asp-for="Image"></label>
+    <img src="~/Files/images/@Model.Image" class="img-fluid rounded" alt="News Image" height="300" width="300" />
+
+</div>  @*Image*@
+
+<div class="form-group">
+    <label class="col col-form-label" asp-for="Title"></label>
+    <input asp-for="Title" class="form-control" readonly />
+</div>  @*Title*@
+
+<div class="form-group">
+    <label class="col col-form-label" asp-for="AuthorId"></label>
+    <input asp-for="AuthorId" class="form-control" readonly />
+</div>  @*AuthorId*@
+
+<div class="form-group">
+    <label class="col col-form-label" asp-for="Author"></label>
+    <input asp-for="Author" class="form-control" readonly />
+</div>  @*Author*@
+
+<div class="form-group">
+    <label class="col col-form-label" asp-for="CreationDate"></label>
+    <input asp-for="CreationDate" class="form-control" readonly />
+</div>  @*CreationDate*@
+
+<div class="form-group">
+    <label class="col col-form-label" asp-for="PublicationDate"></label>
+    <input asp-for="PublicationDate" class="form-control" readonly />
+</div>  @*PublicationDate*@
+
+<br/>
+    
+
+    <input type="submit" value="Delete" class="btn btn-danger" />
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+
+    </div>
