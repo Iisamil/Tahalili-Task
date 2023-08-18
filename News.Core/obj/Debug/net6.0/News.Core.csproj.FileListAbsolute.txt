@@ -1,0 +1,12 @@
+E:\c#\NewsProgramSolution\News.Core\bin\Debug\net6.0\News.Core.deps.json
+E:\c#\NewsProgramSolution\News.Core\bin\Debug\net6.0\News.Core.dll
+E:\c#\NewsProgramSolution\News.Core\bin\Debug\net6.0\News.Core.pdb
+E:\c#\NewsProgramSolution\News.Core\obj\Debug\net6.0\News.Core.csproj.AssemblyReference.cache
+E:\c#\NewsProgramSolution\News.Core\obj\Debug\net6.0\News.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\c#\NewsProgramSolution\News.Core\obj\Debug\net6.0\News.Core.AssemblyInfoInputs.cache
+E:\c#\NewsProgramSolution\News.Core\obj\Debug\net6.0\News.Core.AssemblyInfo.cs
+E:\c#\NewsProgramSolution\News.Core\obj\Debug\net6.0\News.Core.csproj.CoreCompileInputs.cache
+E:\c#\NewsProgramSolution\News.Core\obj\Debug\net6.0\News.Core.dll
+E:\c#\NewsProgramSolution\News.Core\obj\Debug\net6.0\refint\News.Core.dll
+E:\c#\NewsProgramSolution\News.Core\obj\Debug\net6.0\News.Core.pdb
+E:\c#\NewsProgramSolution\News.Core\obj\Debug\net6.0\ref\News.Core.dll

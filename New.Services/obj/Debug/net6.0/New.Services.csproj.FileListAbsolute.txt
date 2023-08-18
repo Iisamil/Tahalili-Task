@@ -1,0 +1,15 @@
+E:\c#\NewsProgramSolution\New.Services\bin\Debug\net6.0\New.Services.deps.json
+E:\c#\NewsProgramSolution\New.Services\bin\Debug\net6.0\New.Services.dll
+E:\c#\NewsProgramSolution\New.Services\bin\Debug\net6.0\New.Services.pdb
+E:\c#\NewsProgramSolution\New.Services\obj\Debug\net6.0\New.Services.csproj.AssemblyReference.cache
+E:\c#\NewsProgramSolution\New.Services\obj\Debug\net6.0\New.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\c#\NewsProgramSolution\New.Services\obj\Debug\net6.0\New.Services.AssemblyInfoInputs.cache
+E:\c#\NewsProgramSolution\New.Services\obj\Debug\net6.0\New.Services.AssemblyInfo.cs
+E:\c#\NewsProgramSolution\New.Services\obj\Debug\net6.0\New.Services.csproj.CoreCompileInputs.cache
+E:\c#\NewsProgramSolution\New.Services\obj\Debug\net6.0\New.Services.dll
+E:\c#\NewsProgramSolution\New.Services\obj\Debug\net6.0\refint\New.Services.dll
+E:\c#\NewsProgramSolution\New.Services\obj\Debug\net6.0\New.Services.pdb
+E:\c#\NewsProgramSolution\New.Services\obj\Debug\net6.0\ref\New.Services.dll
+E:\c#\NewsProgramSolution\New.Services\bin\Debug\net6.0\News.Core.dll
+E:\c#\NewsProgramSolution\New.Services\bin\Debug\net6.0\News.Core.pdb
+E:\c#\NewsProgramSolution\New.Services\obj\Debug\net6.0\New.Services.csproj.CopyComplete
